@@ -14,18 +14,18 @@ const MIN_FLING_VELOCITY = 0.5;
 
 export default class ViewPager extends Component {
 
-  static propTypes = {
-    ...View.propTypes,
-    initialPage: PropTypes.number,
-    pageMargin: PropTypes.number,
-    scrollEnabled: PropTypes.bool,
-    renderPage: PropTypes.func,
-    pageDataArray: PropTypes.array,
+//   static propTypes = {
+//     ...View.propTypes,
+//     initialPage: PropTypes.number,
+//     pageMargin: PropTypes.number,
+//     scrollEnabled: PropTypes.bool,
+//     renderPage: PropTypes.func,
+//     pageDataArray: PropTypes.array,
 
-    onPageSelected: PropTypes.func,
-    onPageScrollStateChanged: PropTypes.func,
-    onPageScroll: PropTypes.func,
-  };
+//     onPageSelected: PropTypes.func,
+//     onPageScrollStateChanged: PropTypes.func,
+//     onPageScroll: PropTypes.func,
+//   };
 
   static defaultProps = {
     initialPage: 0,
